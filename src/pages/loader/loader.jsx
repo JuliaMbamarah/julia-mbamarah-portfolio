@@ -14,7 +14,7 @@ const Loader = ({ setShowLoader }) => {
     // Automatically hide the loader after a delay
     setTimeout(() => {
       setShowLoader(false);
-    }, 2800);
+    }, 1000);
   }, [setShowLoader]);
 
   // Animation variants for the SVG icons
@@ -59,28 +59,141 @@ const Loader = ({ setShowLoader }) => {
   };
 
   return (
-    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        height: "100vh",
+      }}
+    >
       {/* Animated SVG */}
       <motion.svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 1 920.55 921.26"
-        style={{ width: "30vw", height: "30vw" }}
+        style={{ width: "70vw", height: "30vw" }}
       >
-        {/* First SVG path */}
-        <motion.path
-          d="m593.27,789.8c-33.66,13.7-69.92,22.44-107.83,25.16v106.3c37.32-2.01,73.46-8.62,107.83-19.02,39.8-12.05,77.36-29.41,111.85-51.14,123.9-78.19,207.87-213.66,214.96-369.21.35-7.09.47-14.17.47-21.26,0-29.53-2.83-58.46-8.15-86.57-24.21-127.68-101.1-236.81-207.28-303.78v133.94c47.48,45.47,82.32,104.06,98.74,169.84h-210.59V19.02c-34.37-10.39-70.51-16.89-107.83-19.02v481.89h328.46c-5.43,92.24-46.18,175.04-108.78,235.16-32.13,30.83-70.04,55.63-111.85,72.76h0Z"
-          variants={iconVariant2}
-          initial="hidden"
-          animate="visible"
-        />
-
-        {/* Second SVG path */}
-        <motion.path
-          d="m435.12,681.97v15.71h-107.83v-391.77l-27.76,34.72-26.81,33.43-42.28,52.68-42.17-52.68-26.81-33.43-22.91-28.58c-9.09,19.72-16.42,40.51-21.85,62.01-2.48,9.8-4.49,19.84-6.14,30-2.95,18.43-4.49,37.32-4.49,56.57,0,7.09.24,14.17.71,21.26,1.65,28.11,6.5,55.28,14.29,81.26,31.06,103.11,107.6,186.38,206.22,226.65,33.66,13.7,69.92,22.44,107.83,25.16v106.3c-37.32-2.01-73.35-8.62-107.83-19.02-124.84-37.91-227.36-127.32-282.76-243.54-18.43-38.74-31.54-80.43-38.62-124.13-2.72-17.24-4.61-34.84-5.43-52.68-.24-7.09-.47-14.17-.47-21.26,0-29.53,2.83-58.46,8.15-86.57,10.39-54.68,30.35-105.94,58.23-152.01,19.25-31.77,42.17-60.94,68.27-87.17l66.85,83.5,28.94,36.02,96.85-120.71,2.6-3.31L434.41,0h.47l.24.12v681.85Z"
-          variants={iconVariant1}
-          initial="hidden"
-          animate="visible"
-        />
+        {/* Your provided SVG code here */}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          version="1.1"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+          xmlnsSvgjs="http://svgjs.dev/svgjs"
+          width="1500"
+          height="935"
+          viewBox="0 0 1500 935"
+        >
+          <g transform="matrix(1,0,0,1,-0.9090909090909918,0.3785425101214628)">
+            <svg
+              viewBox="0 0 396 247"
+              data-background-color="#ffffff"
+              preserveAspectRatio="xMidYMid meet"
+              height="935"
+              width="1500"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                id="tight-bounds"
+                transform="matrix(1,0,0,1,0.2400000000000091,-0.09999999999999432)"
+              >
+                <svg viewBox="0 0 395.52 247.2" height="247.2" width="395.52">
+                  <g>
+                    <svg></svg>
+                  </g>
+                  <g>
+                    <svg
+                      viewBox="0 0 395.52 247.2"
+                      height="247.2"
+                      width="395.52"
+                    >
+                      <g transform="matrix(1,0,0,1,75.54432,70.3912705511811)">
+                        <svg
+                          viewBox="0 0 244.43135999999998 106.41745889763779"
+                          height="106.41745889763779"
+                          width="244.43135999999998"
+                        >
+                          <g>
+                            <svg
+                              viewBox="0 0 244.43135999999998 106.41745889763779"
+                              height="106.41745889763779"
+                              width="244.43135999999998"
+                            >
+                              <g>
+                                <svg
+                                  viewBox="0 0 244.43135999999998 106.41745889763779"
+                                  height="106.41745889763779"
+                                  width="244.43135999999998"
+                                >
+                                  <g>
+                                    <svg
+                                      viewBox="0 0 244.43135999999998 106.41745889763779"
+                                      height="106.41745889763779"
+                                      width="244.43135999999998"
+                                    >
+                                      <g id="textblocktransform">
+                                        <svg
+                                          viewBox="0 0 244.43135999999998 106.41745889763779"
+                                          height="106.41745889763779"
+                                          width="244.43135999999998"
+                                          id="textblock"
+                                        >
+                                          <g>
+                                            <svg
+                                              viewBox="0 0 244.43135999999998 106.41745889763779"
+                                              height="106.41745889763779"
+                                              width="244.43135999999998"
+                                            >
+                                              <g transform="matrix(1,0,0,1,0,0)">
+                                                <svg
+                                                  width="244.43135999999998"
+                                                  viewBox="1.27 -32.4 74.41000000000001 32.4"
+                                                  height="106.41745889763779"
+                                                  data-palette-color="#77d4fc"
+                                                >
+                                                  <path
+                                                    d="M5.2-25.34L5.2-32.4 30.88-32.4 30.88-6.47 24.41 0 20.09 0 20.09-25.34 5.2-25.34ZM12.48-13.57L12.48-6.47 18.38-6.47 18.38 0 7.76 0 1.27-6.47 1.27-13.57 12.48-13.57ZM55.52 0L36.3-32.4 47.78-32.4 56.47-17.99 63.3-29.71 63.3-13.4 55.52 0ZM75.68 0L64.89 0 64.89-32.4 75.68-32.4 75.68 0ZM46.36 0L36.28 0 36.28-29.39 46.36-12.48 46.36 0Z"
+                                                    opacity="1"
+                                                    transform="matrix(1,0,0,1,0,0)"
+                                                    fill="#77d4fc"
+                                                    class="wordmark-text-0"
+                                                    data-fill-palette-color="primary"
+                                                    id="text-0"
+                                                  ></path>
+                                                </svg>
+                                              </g>
+                                            </svg>
+                                          </g>
+                                        </svg>
+                                      </g>
+                                    </svg>
+                                  </g>
+                                </svg>
+                              </g>
+                            </svg>
+                          </g>
+                        </svg>
+                      </g>
+                      <path
+                        d="M164.988 64.391L164.988 14.041 384.107 14.041 384.107 233.159 164.988 233.159 164.988 182.809 174.585 182.809 174.585 223.563 374.51 223.563 374.51 23.637 174.585 23.637 174.585 64.391Z"
+                        fill="#77d4fc"
+                        stroke="transparent"
+                        data-fill-palette-color="primary"
+                      ></path>
+                    </svg>
+                  </g>
+                  <defs></defs>
+                </svg>
+                <rect
+                  width="395.52"
+                  height="247.2"
+                  fill="none"
+                  stroke="none"
+                  visibility="hidden"
+                ></rect>
+              </g>
+            </svg>
+          </g>
+        </svg>
       </motion.svg>{" "}
     </div>
   );

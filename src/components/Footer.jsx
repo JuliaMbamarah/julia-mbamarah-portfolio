@@ -49,21 +49,9 @@ const Footer = () => {
       {/* Social icons */}
       <SocialIcons />
 
-      {/* GitHub repository link */}
-      <a className="footer-link" href="https://github.com/mdyeates/my-portfolio">
-        <span>
-          <AiOutlineStar /> {gitHubInfo.stars} <BiGitRepoForked />
-          {gitHubInfo.forks} - Give this project a star!
-        </span>
-        <p>
-          <span>▷</span> Designed and built by Michael Yeates &copy; {currentYear}
-        </p>
-        <p>All views and work are my own</p>
-      </a>
-
       {/* Buy Me A Coffee link */}
       <motion.a
-        href="https://www.buymeacoffee.com/mdyeates"
+        href="https://www.buymeacoffee.com/juliambamarah"
         initial="initial"
         whileHover="hover"
         whileTap="tap"
